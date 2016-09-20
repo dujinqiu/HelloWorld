@@ -7,7 +7,7 @@ function print(n) {
         for (var y = 0; y < i; y++) {
             str += "*";
         }
-        console.log(str);
+        console.log(str;
     }
 }
 var n = process.argv[2];
