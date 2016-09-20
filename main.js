@@ -1,11 +1,12 @@
 function print(n) {
     for (var i = 1; i <= n; i++) {
         for (var x = 0; x < n - i; x++) {
-            document.write("");
+            console.log("");
         }
         for (var y = 0; y < i; y++) {
-            document.write("*");
+            console.log("*");
         }
-        document.write("\n");
     }
 }
+var n = process.argv[2];
+print(parseInt(n));
