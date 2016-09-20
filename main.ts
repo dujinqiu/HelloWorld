@@ -12,7 +12,7 @@ function print(n:number):void{
         }
         console.log(str);
         
-    
+    }
 }
 var n:string = process.argv[2];
 print(parseInt(n));
